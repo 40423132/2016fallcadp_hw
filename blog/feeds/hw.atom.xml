@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/hw.atom.xml" rel="self"></link><id>./</id><updated>2016-10-06T11:00:00+08:00</updated><entry><title>零件繪製</title><link href="./ling-jian-hui-zhi.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./ling-jian-hui-zhi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/189897593" width="640" height="345" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/189897593"&gt;cadpa作業-1&lt;/a&gt; from &lt;a href="https://vimeo.com/user47579118"&gt;郭力維&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>四連桿</title><link href="./si-lian-gan.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./si-lian-gan.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;&lt;a href="http://imgur.com/zDIZC8A"&gt;&lt;img src="http://i.imgur.com/zDIZC8A.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;
+&lt;p&gt;Solvespace 四連桿圖&lt;/p&gt;
+&lt;p&gt;&lt;a href="./../w7/w7.csv"&gt; w7.csv&lt;/a&gt; (請以滑鼠右鍵存檔)&lt;/p&gt;
+&lt;p&gt;&lt;a href="./../w7/w7.slvs"&gt;w7.slvs&lt;/a&gt; (請以滑鼠右鍵存檔)&lt;/p&gt;&lt;/p&gt;</summary><category term="日常"></category></entry></feed>

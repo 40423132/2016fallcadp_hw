@@ -1,2 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2016-11-02T17:27:29Z</updated></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2016-10-06T11:00:00+08:00</updated><entry><title>零件繪製</title><link href="./ling-jian-hui-zhi.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./ling-jian-hui-zhi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/189897593" width="640" height="345" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/189897593"&gt;cadpa作業-1&lt;/a&gt; from &lt;a href="https://vimeo.com/user47579118"&gt;郭力維&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>四連桿</title><link href="./si-lian-gan.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./si-lian-gan.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;&lt;a href="http://imgur.com/zDIZC8A"&gt;&lt;img src="http://i.imgur.com/zDIZC8A.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;
+&lt;p&gt;Solvespace 四連桿圖&lt;/p&gt;
+&lt;p&gt;&lt;a href="./../w7/w7.csv"&gt; w7.csv&lt;/a&gt; (請以滑鼠右鍵存檔)&lt;/p&gt;
+&lt;p&gt;&lt;a href="./../w7/w7.slvs"&gt;w7.slvs&lt;/a&gt; (請以滑鼠右鍵存檔)&lt;/p&gt;&lt;/p&gt;</summary><category term="日常"></category></entry><entry><title>上課筆記</title><link href="./shang-ke-bi-ji.html" rel="alternate"></link><updated>2016-09-02T12:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-09-02:./shang-ke-bi-ji.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;上課筆記&lt;/p&gt;
+
+&lt;p&gt;1.下載mini2016fall.7z工具&lt;/p&gt;
+
+&lt;p&gt;2.到mdecourse的2016fallCADP點擊fork&lt;/p&gt;
+
+&lt;p&gt;3.建立自己的作業倉儲，組長還須建立2016fallcadp_ag8倉儲&lt;/p&gt;
+
+&lt;p&gt;4.在倉儲建立gh-pages分支&lt;/p&gt;
+
+&lt;p&gt;5.將組別倉儲clone下來，切換到gh-pages分支&lt;/p&gt;
+
+&lt;p&gt;6.使用git submodule add -b gh-pages 指令將組員的作業倉儲加入子模組&lt;/p&gt;
+
+&lt;p&gt;7.每周定時使用
+
+(1) git submodule init
+
+(2)git submodule update和
+
+(3)git submodule foreach "(git checkout gh-pages; git pull)&amp;"來更新&lt;/p&gt;
+
+&lt;p&gt;8.設定shareX的儲存位置
+
+(1)Application settings
+
+(2)path選擇想儲存的位置即可&lt;/p&gt;
+
+&lt;p&gt;9.使用solvespace練習繪製零件&lt;/p&gt;</summary><category term="筆記"></category></entry></feed>
