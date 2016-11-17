@@ -1,14 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2016-10-06T11:00:00+08:00</updated><entry><title>零件繪製</title><link href="./ling-jian-hui-zhi.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./ling-jian-hui-zhi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2016-10-06T11:00:00+08:00</updated><entry><title>1117</title><link href="./1117.html" rel="alternate"></link><published>2016-10-06T11:00:00+08:00</published><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./1117.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;&lt;img src="./../data/32-1117-1.png"width="800"/&gt;
+&lt;img src="./../data/32-1117-2.png"width="800"/&gt;&lt;/p&gt;
+&lt;p&gt;繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖&lt;/p&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
+&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫兩條直線 --&gt;
+
+&lt;canvas id="japanflag1" width="600" height="200"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+import math
+# 準備繪圖畫布
+canvas = doc["japanflag1"]
+ctx = canvas.getContext("2d")
+
+# 以下可以利用 ctx 物件進行畫圖
+# 先畫一條直線
+ctx.beginPath()
+# 設定線的寬度為 1 個單位
+ctx.lineWidth = 1
+# 將畫筆移動到 (100, 100) 座標點
+ctx.moveTo(100, 100)
+# 然後畫直線到 (150, 200) 座標點
+ctx.lineTo(150, 200)
+# 畫右上左下的斜線
+ctx.moveTo(150, 100)
+ctx.lineTo(100, 200)
+# 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
+ctx.strokeStyle = "blue"
+# 實際執行畫線
+ctx.stroke()
+ctx.closePath()
+&lt;/script&gt;</summary><category term="日常"></category></entry><entry><title>零件繪製</title><link href="./ling-jian-hui-zhi.html" rel="alternate"></link><published>2016-10-06T11:00:00+08:00</published><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./ling-jian-hui-zhi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;iframe src="https://player.vimeo.com/video/189897593" width="640" height="345" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/189897593"&gt;cadpa作業-1&lt;/a&gt; from &lt;a href="https://vimeo.com/user47579118"&gt;郭力維&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>四連桿</title><link href="./si-lian-gan.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./si-lian-gan.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/189897593"&gt;cadpa作業-1&lt;/a&gt; from &lt;a href="https://vimeo.com/user47579118"&gt;郭力維&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>四連桿</title><link href="./si-lian-gan.html" rel="alternate"></link><published>2016-10-06T11:00:00+08:00</published><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./si-lian-gan.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;&lt;a href="http://imgur.com/zDIZC8A"&gt;&lt;img src="http://i.imgur.com/zDIZC8A.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;
 &lt;p&gt;Solvespace 四連桿圖&lt;/p&gt;
 &lt;p&gt;&lt;a href="./../w7/w7.csv"&gt; w7.csv&lt;/a&gt; (請以滑鼠右鍵存檔)&lt;/p&gt;
-&lt;p&gt;&lt;a href="./../w7/w7.slvs"&gt;w7.slvs&lt;/a&gt; (請以滑鼠右鍵存檔)&lt;/p&gt;&lt;/p&gt;</summary><category term="日常"></category></entry><entry><title>上課筆記</title><link href="./shang-ke-bi-ji.html" rel="alternate"></link><updated>2016-09-02T12:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-09-02:./shang-ke-bi-ji.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;&lt;a href="./../w7/w7.slvs"&gt;w7.slvs&lt;/a&gt; (請以滑鼠右鍵存檔)&lt;/p&gt;&lt;/p&gt;</summary><category term="日常"></category></entry><entry><title>上課筆記</title><link href="./shang-ke-bi-ji.html" rel="alternate"></link><published>2016-09-02T12:00:00+08:00</published><updated>2016-09-02T12:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-09-02:./shang-ke-bi-ji.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;上課筆記&lt;/p&gt;
 
