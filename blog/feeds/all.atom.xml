@@ -47,7 +47,70 @@ ctx.strokeStyle = "blue"
 # 實際執行畫線
 ctx.stroke()
 ctx.closePath()
+&lt;/script&gt;</summary><category term="日常"></category></entry><entry><title>1117 四連桿路徑</title><link href="./1117-si-lian-gan-lu-jing.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./1117-si-lian-gan-lu-jing.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;&lt;img src="./../data/32-1117-1.png"width="800"/&gt;
+&lt;img src="./../data/32-1117-2.png"width="800"/&gt;&lt;/p&gt;
+&lt;p&gt;繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖&lt;/p&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
+&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫兩條直線 --&gt;
+
+&lt;canvas id="japanflag1" width="600" height="200"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+import math
+# 準備繪圖畫布
+canvas = doc["japanflag1"]
+ctx = canvas.getContext("2d")
+
+# 以下可以利用 ctx 物件進行畫圖
+# 先畫一條直線
+ctx.beginPath()
+# 設定線的寬度為 1 個單位
+ctx.lineWidth = 1
+# 將畫筆移動到 (100, 100) 座標點
+ctx.moveTo(100, 100)
+# 然後畫直線到 (150, 200) 座標點
+ctx.lineTo(150, 200)
+# 畫右上左下的斜線
+ctx.moveTo(150, 100)
+ctx.lineTo(100, 200)
+# 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
+ctx.strokeStyle = "blue"
+# 實際執行畫線
+ctx.stroke()
+ctx.closePath()
 &lt;/script&gt;</summary><category term="日常"></category></entry><entry><title>1124 solvepace練習</title><link href="./1124-solvepacelian-xi.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./1124-solvepacelian-xi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h2&gt;sovlespace&lt;/h2&gt;
+&lt;h3&gt;1.parts(零件繪製)&lt;/h3&gt;
+&lt;p&gt;範例檔案: http://solvespace.com/bracket.pl An introductory tutorial is available, in which we draw the same part that is shown in the demo video.&lt;/p&gt;
+&lt;p&gt;This covers most of the basic features of SolveSpace, including sketches, constraints, extrusions, and Boolean operations.&lt;/p&gt;
+&lt;p&gt;When we first run SolveSpace, we will begin with an empty part. Initially, our view of the part will be oriented onto the XY plane; the label for that plane is displayed at the bottom left of the screen (#XY, in dark grey). The axes are also indicated by the three colored arrows at the bottom left; the X, Y, and Z axes are drawn in red, green, and blue respectively.&lt;/p&gt;
+&lt;p&gt;When we hover the mouse over any entity, constraint, or other object in the sketch, that object will appear highlighted in yellow. For example, the XY plane, which is drawn as a dashed square, will appear highlighted when we hover the mouse over it. The YZ and ZX planes initially look like dashed lines, because they are being viewed on edge; but they still appear highlighted in yellow when we hold the mouse over them. It is similarly possible to highlight the X, Y, and Z axes (which are drawn as arrows), or the origin (which like all points is drawn as a green square).&lt;/p&gt;
+&lt;h2&gt;Extrude (平行長出)&lt;/h2&gt;
+&lt;iframe src="./../data/1.html"width="800"height="600"/&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;Extrude (除料)&lt;/h2&gt;
+&lt;iframe src="./../data/2.html"width="800"height="600"/&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;Lathe (旋轉繞行長出或除料)&lt;/h2&gt;
+&lt;iframe src="./../data/40423132.html"width="800"height="600"/&gt;&lt;/iframe&gt;</summary><category term="日常"></category></entry><entry><title>1124 solvepace練習</title><link href="./1124-solvepacelian-xi.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./1124-solvepacelian-xi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h2&gt;sovlespace&lt;/h2&gt;
 &lt;h3&gt;1.parts(零件繪製)&lt;/h3&gt;
@@ -65,9 +128,15 @@ ctx.closePath()
 &lt;iframe src="./../data/40423132.html"width="800"height="600"/&gt;&lt;/iframe&gt;</summary><category term="日常"></category></entry><entry><title>1201 組合圖</title><link href="./1201-zu-he-tu.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./1201-zu-he-tu.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h3&gt;solvespace組合圖&lt;/h3&gt;
+&lt;iframe src="./../data/1222.html"width="800"height="600"/&gt;&lt;/iframe&gt;</summary><category term="日常"></category></entry><entry><title>1201 組合圖</title><link href="./1201-zu-he-tu.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./1201-zu-he-tu.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h3&gt;組合圖成品&lt;/h3&gt;
 &lt;iframe src="./../data/1222.html"width="800"height="600"/&gt;&lt;/iframe&gt;</summary><category term="日常"></category></entry><entry><title>1222 3D印表機</title><link href="./1222-3dyin-biao-ji.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./1222-3dyin-biao-ji.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
-&lt;p&gt;野野野格格隔晚點補&lt;/p&gt;</summary><category term="日常"></category></entry><entry><title>零件繪製</title><link href="./ling-jian-hui-zhi.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./ling-jian-hui-zhi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;野野野格格隔晚點補&lt;/p&gt;</summary><category term="日常"></category></entry><entry><title>1222 3D印表機</title><link href="./1222-3dyin-biao-ji.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./1222-3dyin-biao-ji.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;野野野野野   晚點補&lt;/p&gt;
+&lt;p&gt;給我一點時間&lt;/p&gt;</summary><category term="日常"></category></entry><entry><title>零件繪製</title><link href="./ling-jian-hui-zhi.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./ling-jian-hui-zhi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;iframe src="https://player.vimeo.com/video/189897593" width="640" height="345" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -76,7 +145,144 @@ ctx.closePath()
 &lt;p&gt;&lt;a href="http://imgur.com/zDIZC8A"&gt;&lt;img src="http://i.imgur.com/zDIZC8A.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;
 &lt;p&gt;Solvespace 四連桿圖&lt;/p&gt;
 &lt;p&gt;&lt;a href="./../w7/w7.csv"&gt; w7.csv&lt;/a&gt; (請以滑鼠右鍵存檔)&lt;/p&gt;
-&lt;p&gt;&lt;a href="./../w7/w7.slvs"&gt;w7.slvs&lt;/a&gt; (請以滑鼠右鍵存檔)&lt;/p&gt;&lt;/p&gt;</summary><category term="日常"></category></entry><entry><title>上課筆記</title><link href="./shang-ke-bi-ji.html" rel="alternate"></link><updated>2016-09-02T12:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-09-02:./shang-ke-bi-ji.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;&lt;a href="./../w7/w7.slvs"&gt;w7.slvs&lt;/a&gt; (請以滑鼠右鍵存檔)&lt;/p&gt;&lt;/p&gt;</summary><category term="日常"></category></entry><entry><title>1117 四連桿路徑</title><link href="./1117-si-lian-gan-lu-jing.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./1117-si-lian-gan-lu-jing.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;&lt;img src="./../data/32-1117-1.png"width="800"/&gt;
+&lt;img src="./../data/32-1117-2.png"width="800"/&gt;&lt;/p&gt;
+&lt;p&gt;繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖&lt;/p&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
+&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫兩條直線 --&gt;
+
+&lt;canvas id="japanflag1" width="600" height="200"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+import math
+# 準備繪圖畫布
+canvas = doc["japanflag1"]
+ctx = canvas.getContext("2d")
+
+# 以下可以利用 ctx 物件進行畫圖
+# 先畫一條直線
+ctx.beginPath()
+# 設定線的寬度為 1 個單位
+ctx.lineWidth = 1
+# 將畫筆移動到 (100, 100) 座標點
+ctx.moveTo(100, 100)
+# 然後畫直線到 (150, 200) 座標點
+ctx.lineTo(150, 200)
+# 畫右上左下的斜線
+ctx.moveTo(150, 100)
+ctx.lineTo(100, 200)
+# 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
+ctx.strokeStyle = "blue"
+# 實際執行畫線
+ctx.stroke()
+ctx.closePath()
+&lt;/script&gt;</summary><category term="日常"></category></entry><entry><title>1117 四連桿路徑</title><link href="./1117-si-lian-gan-lu-jing.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./1117-si-lian-gan-lu-jing.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;&lt;img src="./../data/32-1117-1.png"width="800"/&gt;
+&lt;img src="./../data/32-1117-2.png"width="800"/&gt;&lt;/p&gt;
+&lt;p&gt;繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖&lt;/p&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
+&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫兩條直線 --&gt;
+
+&lt;canvas id="japanflag1" width="600" height="200"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+import math
+# 準備繪圖畫布
+canvas = doc["japanflag1"]
+ctx = canvas.getContext("2d")
+
+# 以下可以利用 ctx 物件進行畫圖
+# 先畫一條直線
+ctx.beginPath()
+# 設定線的寬度為 1 個單位
+ctx.lineWidth = 1
+# 將畫筆移動到 (100, 100) 座標點
+ctx.moveTo(100, 100)
+# 然後畫直線到 (150, 200) 座標點
+ctx.lineTo(150, 200)
+# 畫右上左下的斜線
+ctx.moveTo(150, 100)
+ctx.lineTo(100, 200)
+# 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
+ctx.strokeStyle = "blue"
+# 實際執行畫線
+ctx.stroke()
+ctx.closePath()
+&lt;/script&gt;</summary><category term="日常"></category></entry><entry><title>1124 solvepace練習</title><link href="./1124-solvepacelian-xi.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./1124-solvepacelian-xi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h2&gt;sovlespace&lt;/h2&gt;
+&lt;h3&gt;1.parts(零件繪製)&lt;/h3&gt;
+&lt;p&gt;範例檔案: http://solvespace.com/bracket.pl An introductory tutorial is available, in which we draw the same part that is shown in the demo video.&lt;/p&gt;
+&lt;p&gt;This covers most of the basic features of SolveSpace, including sketches, constraints, extrusions, and Boolean operations.&lt;/p&gt;
+&lt;p&gt;When we first run SolveSpace, we will begin with an empty part. Initially, our view of the part will be oriented onto the XY plane; the label for that plane is displayed at the bottom left of the screen (#XY, in dark grey). The axes are also indicated by the three colored arrows at the bottom left; the X, Y, and Z axes are drawn in red, green, and blue respectively.&lt;/p&gt;
+&lt;p&gt;When we hover the mouse over any entity, constraint, or other object in the sketch, that object will appear highlighted in yellow. For example, the XY plane, which is drawn as a dashed square, will appear highlighted when we hover the mouse over it. The YZ and ZX planes initially look like dashed lines, because they are being viewed on edge; but they still appear highlighted in yellow when we hold the mouse over them. It is similarly possible to highlight the X, Y, and Z axes (which are drawn as arrows), or the origin (which like all points is drawn as a green square).&lt;/p&gt;
+&lt;h2&gt;Extrude (平行長出)&lt;/h2&gt;
+&lt;iframe src="./../data/1.html"width="800"height="600"/&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;Extrude (除料)&lt;/h2&gt;
+&lt;iframe src="./../data/2.html"width="800"height="600"/&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;Lathe (旋轉繞行長出或除料)&lt;/h2&gt;
+&lt;iframe src="./../data/40423132.html"width="800"height="600"/&gt;&lt;/iframe&gt;</summary><category term="日常"></category></entry><entry><title>1124 solvepace練習</title><link href="./1124-solvepacelian-xi.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./1124-solvepacelian-xi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h2&gt;sovlespace&lt;/h2&gt;
+&lt;h3&gt;1.parts(零件繪製)&lt;/h3&gt;
+&lt;p&gt;範例檔案: http://solvespace.com/bracket.pl An introductory tutorial is available, in which we draw the same part that is shown in the demo video.&lt;/p&gt;
+&lt;p&gt;This covers most of the basic features of SolveSpace, including sketches, constraints, extrusions, and Boolean operations.&lt;/p&gt;
+&lt;p&gt;When we first run SolveSpace, we will begin with an empty part. Initially, our view of the part will be oriented onto the XY plane; the label for that plane is displayed at the bottom left of the screen (#XY, in dark grey). The axes are also indicated by the three colored arrows at the bottom left; the X, Y, and Z axes are drawn in red, green, and blue respectively.&lt;/p&gt;
+&lt;p&gt;When we hover the mouse over any entity, constraint, or other object in the sketch, that object will appear highlighted in yellow. For example, the XY plane, which is drawn as a dashed square, will appear highlighted when we hover the mouse over it. The YZ and ZX planes initially look like dashed lines, because they are being viewed on edge; but they still appear highlighted in yellow when we hold the mouse over them. It is similarly possible to highlight the X, Y, and Z axes (which are drawn as arrows), or the origin (which like all points is drawn as a green square).&lt;/p&gt;
+&lt;h2&gt;Extrude (平行長出)&lt;/h2&gt;
+&lt;iframe src="./../data/1.html"width="800"height="600"/&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;Extrude (除料)&lt;/h2&gt;
+&lt;iframe src="./../data/2.html"width="800"height="600"/&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;Lathe (旋轉繞行長出或除料)&lt;/h2&gt;
+&lt;iframe src="./../data/40423132.html"width="800"height="600"/&gt;&lt;/iframe&gt;</summary><category term="日常"></category></entry><entry><title>1201 組合圖</title><link href="./1201-zu-he-tu.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./1201-zu-he-tu.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h3&gt;組合圖成品&lt;/h3&gt;
+&lt;iframe src="./../data/1222.html"width="800"height="600"/&gt;&lt;/iframe&gt;</summary><category term="日常"></category></entry><entry><title>1201 組合圖</title><link href="./1201-zu-he-tu.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./1201-zu-he-tu.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h3&gt;solvespace組合圖&lt;/h3&gt;
+&lt;iframe src="./../data/1222.html"width="800"height="600"/&gt;&lt;/iframe&gt;</summary><category term="日常"></category></entry><entry><title>1222 3D印表機</title><link href="./1222-3dyin-biao-ji.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./1222-3dyin-biao-ji.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;野野野野野   晚點補&lt;/p&gt;
+&lt;p&gt;給我一點時間&lt;/p&gt;</summary><category term="日常"></category></entry><entry><title>1222 3D印表機</title><link href="./1222-3dyin-biao-ji.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-10-06:./1222-3dyin-biao-ji.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;野野野格格隔晚點補&lt;/p&gt;</summary><category term="日常"></category></entry><entry><title>上課筆記</title><link href="./shang-ke-bi-ji.html" rel="alternate"></link><updated>2016-09-02T12:00:00+08:00</updated><author><name>40423132</name></author><id>tag:,2016-09-02:./shang-ke-bi-ji.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;上課筆記&lt;/p&gt;
 
