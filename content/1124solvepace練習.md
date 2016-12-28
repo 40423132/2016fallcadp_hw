@@ -32,5 +32,5 @@ When we hover the mouse over any entity, constraint, or other object in the sket
 <iframe src="./../data/40423132.html"width="800"height="600"/></iframe>
 
 
-###2. Assembly (零件組立)
+
 
