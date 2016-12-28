@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>1117 四連桿路徑 - 2016Fall 課程網誌 (虎尾科大MDE)</title>
+    <title>1222 3D印表機 - 2016Fall 課程網誌 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -166,15 +166,15 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="./1117-si-lian-gan-lu-jing.html">
+<link rel="canonical" href="./1222-3dyin-biao-ji.html">
 
         <meta name="author" content="40423132" />
         <meta name="keywords" content="日常" />
 
         <meta property="og:site_name" content="2016Fall 課程網誌 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="1117 四連桿路徑"/>
-        <meta property="og:url" content="./1117-si-lian-gan-lu-jing.html"/>
+        <meta property="og:title" content="1222 3D印表機"/>
+        <meta property="og:url" content="./1222-3dyin-biao-ji.html"/>
         <meta property="og:description" content=""/>
         <meta property="article:published_time" content="2016-10-06" />
             <meta property="article:section" content="HW" />
@@ -289,10 +289,10 @@ init_mathjax();
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./1117-si-lian-gan-lu-jing.html"
+                    <a href="./1222-3dyin-biao-ji.html"
                        rel="bookmark"
-                       title="Permalink to 1117 四連桿路徑">
-                        1117  四連桿路徑
+                       title="Permalink to 1222 3D印表機">
+                        1222 3D印表機
                     </a>
                 </h1>
             </header>
@@ -316,53 +316,7 @@ init_mathjax();
                 </div>
                 <!-- PELICAN_END_SUMMARY -->
 
-<p><img src="./../data/32-1117-1.png"width="800"/>
-<img src="./../data/32-1117-2.png"width="800"/></p>
-<p>繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖</p>
-
-<!-- 導入 Brython 標準程式庫 -->
-
-<script type="text/javascript" 
-    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
-</script>
-
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-brython(1);
-}
-</script>
-
-<!-- 以下實際利用  Brython 畫兩條直線 -->
-
-<canvas id="japanflag1" width="600" height="200"></canvas>
-
-<script type="text/python3">
-from browser import document as doc
-import math
-# 準備繪圖畫布
-canvas = doc["japanflag1"]
-ctx = canvas.getContext("2d")
-
-# 以下可以利用 ctx 物件進行畫圖
-# 先畫一條直線
-ctx.beginPath()
-# 設定線的寬度為 1 個單位
-ctx.lineWidth = 1
-# 將畫筆移動到 (100, 100) 座標點
-ctx.moveTo(100, 100)
-# 然後畫直線到 (150, 200) 座標點
-ctx.lineTo(150, 200)
-# 畫右上左下的斜線
-ctx.moveTo(150, 100)
-ctx.lineTo(100, 200)
-# 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
-ctx.strokeStyle = "blue"
-# 實際執行畫線
-ctx.stroke()
-ctx.closePath()
-</script>
+<p>野野野野野   晚點補</p>
             </div>
             <!-- /.entry-content -->
         </article>
