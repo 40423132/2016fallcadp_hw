@@ -5,62 +5,48 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2016-12-28T22:45:40-00:00</lastmod>
+<lastmod>2016-11-24T15:43:26-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2016-12-28T22:45:40-00:00</lastmod>
+<lastmod>2016-11-24T15:43:26-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2016-12-28T22:45:40-00:00</lastmod>
+<lastmod>2016-11-24T15:43:26-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2016-12-28T22:45:40-00:00</lastmod>
+<lastmod>2016-11-24T15:43:26-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2016-12-28T22:43:07+08:00</lastmod>
+<lastmod>2016-11-24T14:40:06+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./1117-si-lian-gan-lu-jing.html</loc>
+<loc>./1117.html</loc>
 <lastmod>2016-10-06T11:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./1124-solvepacelian-xi.html</loc>
-<lastmod>2016-10-06T11:00:00+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./1201-zu-he-tu.html</loc>
-<lastmod>2016-10-06T11:00:00+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./1222-3dyin-biao-ji.html</loc>
+<loc>./1124.html</loc>
 <lastmod>2016-10-06T11:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -102,6 +88,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./tag/bi-ji.html</loc>
+<lastmod>2016-09-02T12:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./tag/ri-chang.html</loc>
 <lastmod>2016-10-06T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -111,13 +104,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./tag/zuo-ye.html</loc>
 <lastmod>2016-10-06T11:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/bi-ji.html</loc>
-<lastmod>2016-09-02T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
