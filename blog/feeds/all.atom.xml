@@ -106,11 +106,15 @@
 &lt;p&gt;&lt;a href="https://vimeo.com/199474052"&gt;方塊組合-2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47579118"&gt;郭力維&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3&gt;3D印表機&lt;/h3&gt;
-&lt;p&gt;零件
+&lt;p&gt;零件&lt;/p&gt;
 &lt;iframe src="./../data/盤子.html"width="800"height="600"/&gt;&lt;/iframe&gt;
+
 &lt;iframe src="./../data/長棒.html"width="800"height="600"/&gt;&lt;/iframe&gt;
+
 &lt;iframe src="./../data/短棒.html"width="800"height="600"/&gt;&lt;/iframe&gt;
-&lt;iframe src="./../data/噴嘴.html"width="800"height="600"/&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;iframe src="./../data/噴嘴.html"width="800"height="600"/&gt;&lt;/iframe&gt;
+
 &lt;p&gt;完成品&lt;/p&gt;
 &lt;iframe src="./../data/3DPRT.html"width="800"height="600"/&gt;&lt;/iframe&gt;
 
