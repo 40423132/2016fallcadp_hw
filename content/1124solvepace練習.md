@@ -49,9 +49,9 @@ When we hover the mouse over any entity, constraint, or other object in the sket
 
 ### 3. Linkages (fourbar & multilink) (四連桿與多連桿運動模擬)
 
-<iframe src="./../data/多連桿SOL.png"width="800"height="600"/></iframe>
+<img src="./../data/多連桿SOL.png"width="800"/>
+<img src="./../data/多連桿.png"width="800"/>
 
-<iframe src="./../data/多連桿.png"width="800"height="600"/></iframe>
 
 <iframe src="https://player.vimeo.com/video/199447243" width="640" height="326" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/199447243">多連桿</a> from <a href="https://vimeo.com/user47579118">郭力維</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
